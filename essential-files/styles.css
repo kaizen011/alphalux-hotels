@@ -1,0 +1,143 @@
+body {
+    font-size: 80%;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    letter-spacing: 0.20em;
+    background-color: #1b1b1b;
+  }
+  
+  
+  .bodyborder{
+    max-width: 3000px;
+    min-width: 900px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 10px outset black;
+    background-color: rgba(rgb(62, 62, 77));
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  h1 { border: 1px solid black;
+      color:black;
+       font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+       font-weight: 500px;
+       font-size: 500%;
+       letter-spacing: 0.20em;
+       }
+  
+  .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 35%;
+  }
+  
+  
+      ul {
+    width: 1000px;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    border-top: 3px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    margin: 0px 3px;
+  }
+      
+  .border {
+    border: 3px solid; color: rgb(0, 0, 0);
+    width: 40%;
+    margin: auto;
+    padding: 7px;
+  }
+  
+  p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+    color: black;
+  }
+  
+  a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+  }
+  img {
+    opacity: 1.0;
+  }
+  
+  img:hover {
+    opacity: 0.7;
+  }
+  
+  a:hover,
+  a.on {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  .background-img{
+      width:auto;
+      height:auto; 
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: rgb(255, 255, 255);
+  }
+  a:hover,
+  a.oni {
+    color: #ffffff;
+    background-color: #0a090e;
+  }
+  
+   
+  .blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    height: auto;
+      width: 100%;
+  }
+  
